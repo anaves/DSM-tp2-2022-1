@@ -1,7 +1,16 @@
 public class Conta {
     private double saldo;
     private double limite;
+    public static int QTD; // atributo compartilhado
+
+    public Conta(){
+        QTD++;
+        System.out.println("Contas criadas: " + QTD);
+    }
     
+    public static int QTD_METODO() {
+        return QTD;
+    }
     // apenas o metodo de consulta saldo
     public double getSaldo() {
         return saldo;
