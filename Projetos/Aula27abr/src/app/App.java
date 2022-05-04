@@ -1,5 +1,5 @@
 package app;
-import java.util.LinkedList;
+//import java.util.LinkedList;
 
 import modelos.CD;
 import modelos.Eletronico;
