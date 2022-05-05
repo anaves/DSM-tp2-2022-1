@@ -9,4 +9,11 @@ public class Circulo extends Forma {
     public void colorir(){
         System.out.println("Colorir circulo");
     }
+
+    @Override
+    public String toString() {
+        // TODO Auto-generated method stub
+        return "circulo";
+    }
+
 }

@@ -18,17 +18,18 @@ public class AplicativoDesenho {
         if (f instanceof Circulo){
             Circulo c = (Circulo)f; // amarracao (CAST)
             c.colorir();
+            c.desenhar();
         }
     }
     public static void main(String[] args) {
-        Forma tipoForma = new Forma();
+        Forma tipoForma = new Estrela();
         Circulo tipoCirculo = new Circulo();
         
         canvas(tipoForma);
         canvas(tipoCirculo);
         canvas(new Quadrado());
 
-        Forma vetor[]={new Forma(),tipoCirculo, new Quadrado(), new Circulo()};
+        Forma vetor[]={new Circulo(),tipoCirculo, new Quadrado(), new Circulo()};
         exibir(vetor);
         if (tipoCirculo instanceof Circulo){ // instanceof verifica o tipo do objeto
             System.out.println("Realmente eh circulo");
