@@ -17,7 +17,10 @@ public class App {
         produtos.add(new Produto("Teclado", 50.0));
         produtos.add(new Produto("Caneta", 4.0));
         System.out.println(produtos);
-        Collections.sort(produtos);
+        Collections.sort(produtos);// para funcionar Produtos deve implementar a interface Comparable
+        System.out.println(produtos);
+        Produto.setTipo("preco");
+        Collections.sort(produtos);// para funcionar Produtos deve implementar a interface Comparable
         System.out.println(produtos);
     }
 }
