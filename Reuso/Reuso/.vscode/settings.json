@@ -1,0 +1,35 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": {
+        "include": [
+            "lib/**/*.jar",
+            "/home/alysson/Downloads/caelum-stella-core-2.1.2.jar"
+        ],
+        "exclude": [
+            "/home/alysson/Downloads/jar_files/jar_files/aopalliance-1.0.jar",
+            "/home/alysson/Downloads/barbecue-2.0-dev.jar",
+            "/home/alysson/Downloads/jar_files/jar_files/bcmail-jdk14-138.jar",
+            "/home/alysson/Downloads/jar_files/jar_files/bcprov-jdk14-1.38.jar",
+            "/home/alysson/Downloads/jar_files/jar_files/castor-xml-1.3.3.jar",
+            "/home/alysson/Downloads/commons-beanutils-1.9.4-bin/commons-beanutils-1.9.4/commons-beanutils-1.9.4.jar",
+            "/home/alysson/Downloads/jar_files/jar_files/commons-collections-3.2.2.jar",
+            "/home/alysson/Downloads/jar_files/jar_files/commons-digester-2.1.jar",
+            "/home/alysson/Downloads/jar_files/jar_files/core-2.3.0.jar",
+            "/home/alysson/Downloads/jar_files/jar_files/ecj-4.3.1.jar",
+            "/home/alysson/Downloads/jar_files/jar_files/javax.inject-1.jar",
+            "/home/alysson/Downloads/jar_files/jar_files/jackson-annotations-2.1.4.jar",
+            "/home/alysson/Downloads/jar_files/jar_files/jackson-databind-2.1.4.jar",
+            "/home/alysson/Downloads/jasperreports-6.3.0.jar",
+            "/home/alysson/Downloads/jar_files/jar_files/jfreechart-1.0.19.jar",
+            "/home/alysson/Downloads/jar_files/jar_files/lucene-analyzers-common-4.5.1.jar",
+            "/home/alysson/Downloads/jar_files/jar_files/lucene-core-4.5.1.jar",
+            "/home/alysson/Downloads/jar_files/jar_files/lucene-sandbox-4.5.1.jar",
+            "/home/alysson/Downloads/jar_files/jar_files/olap4j-0.9.7.309-JS-3.jar",
+            "/home/alysson/Downloads/jar_files/jar_files/spring-aop-3.0.6.RELEASE.jar",
+            "/home/alysson/Downloads/jar_files/jar_files/spring-asm-3.0.6.RELEASE.jar",
+            "/home/alysson/Downloads/jar_files/jar_files/spring-beans-3.0.6.RELEASE.jar",
+            "/home/alysson/Downloads/jar_files/jar_files/spring-context-3.0.6.RELEASE.jar"
+        ]
+    }
+}
